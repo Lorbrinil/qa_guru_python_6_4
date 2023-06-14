@@ -1,1 +1,1 @@
-# qa_guru_python_6_4
+# qa_guru_python_6_4 домашнее задание
