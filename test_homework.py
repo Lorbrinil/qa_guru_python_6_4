@@ -87,5 +87,6 @@ def test_dicts():
     d = {}
     for i, j in zip(first, second):
         d[i] = [j]
+    print(list(d.values()))
     assert isinstance(d, dict)
     assert len(d) == 5
