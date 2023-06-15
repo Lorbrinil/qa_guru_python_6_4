@@ -55,7 +55,7 @@ def test_random_list():
     """
     # TODO создайте список
     l = []
-    while (len(l) < 10):
+    while len(l) < 10:
         l.append(random.randint(1, 100))
     l.sort()
     assert len(l) == 10
